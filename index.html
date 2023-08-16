@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Al-Shaer website</title>
+    <!--=========== link cdnjs ============ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!--======== link style =========-->
+    <link rel="stylesheet" href="style.css">
+    <!--======== link icons ===========-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    
+    <!--=============== welcomePopup ==============-->
+    <div id="welcomePopup" class="popup">
+        <div class="popup-content">
+            <p>مرحبًا بك في موقعي الشخصي!</p>
+            <button id="closePopup">إغلاق</button>
+        </div>
+    </div>
+
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" name="" id="toggler">
+
+    <!-- style-switcher -->
+    <div class="style-switcher">
+    <label for="toggler" class="style-switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+    </label>
+    <h3 class="style-switcher-title">حدد ستايل الالوان</h3>
+    <!-- style-switcher-colors -->
+    <div class="style-switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+    </div>
+    </div>
+
+    <!--================== start header ============-->
+    <header class="header">
+        <!-- logo -->
+        <a href="#" class="logo"><i class='bx bx-laptop'></i></a>
+        <!-- navbar -->
+        <nav class="navbar">
+            <a href="#home">الرئيسة</a>
+            <a href="#about">من نحن</a>
+            <a href="#skills">المهارات</a>
+            <a href="#services">الخدمات</a>
+            <a href="#portfolio">المشاريع</a>
+            <a href="#Reviews">الاراء</a>
+            <a href="#contact">تواصل معنا</a>
+        </nav>
+        
+        <!-- socail links-->
+        <div class="wrapper">
+                <div class="icon facebook">
+                <div class="tooltip">
+                    Facebook
+                </div>
+                <span><i class='bx bxl-facebook-circle'></i></span>
+                </div>
+                <div class="icon twitter">
+                <div class="tooltip">
+                    Twitter
+                </div>
+                <span><i class='bx bxl-twitter'></i></span>
+                </div>
+                <div class="icon instagram">
+                <div class="tooltip">
+                    Instagram
+                </div>
+                <span><i class='bx bxl-instagram-alt'></i></span>
+                </div>
+                <div class="icon github">
+                <div class="tooltip">
+                    Github
+                </div>
+                <span><i class='bx bxl-github'></i></span>
+                </div>
+                <div class="icon youtube">
+                <div class="tooltip">
+                    linkedin
+                </div>
+                <span><i class='bx bxl-linkedin-square'></i></span>
+                </div>
+        </div>
+    </header>
+    <!--================= end header =============-->
+
+    <!------------------------------ start main ------------------------------------->
+    <main class="main">
+        <!--============ start home =================-->
+        <section class="home" id="home">
+            <div class="home-container">
+            <!-- home text -->
+            <div class="home-text">
+                <span class="hello">مرحبا</span>
+                <h1> <span>انا </span>محمود الشاعر <br>a <span class="multtext">مطور وجهات امامية</span>  </h1>
+                <p>"عالم الواجهات الأمامية هو شغفي ومجالي المفضل. أنا متخصص في تحسين تجربة المستخدم من خلال تصاميم جذابة ومستجيبة تتوافق مع أحدث الاتجاهات. دعونا نعمل سويًا لجعل رؤيتك الإبداعية واقعًا."
+
+                </p>
+                <!-- button -->
+                <div class="home-btns">
+                <a href="#contact" class="btn">وظفني</a>
+                <a href="#portfolio" class="btn btn--transparent" >مشاريعي </a>
+                </div>
+            </div>
+            <!-- img -->
+            <div class="home-img">
+                <img src="/img/pexels-photo-2379004-removebg-preview.png" alt="">
+            </div>
+            </div>
+        </section>
+        <!--============== end home =================-->
+
+        <!--================ start about ==============-->
+        <section class="about" id="about">
+            <div class="heading">
+                <h1>من أنا؟</h1>
+            </div>
+            <div class="about-container ">
+                <div class="about-img">
+                    <img src="img/about1.svg" alt="">
+                </div>
+                <div class="about-text">
+                        <h1> <span>انا </span>محمود الشاعر <br>a <span>مطور وجهات امامية</span>  </h1>
+                        <p >"أنا محمود الشاعر، مطور واجهات أمامية مبتكر ومبدع. لدي شغف كبير بتحويل التصاميم إلى تجارب مستخدم مذهلة ومبتكرة. من خلال استخدامي لأحدث تقنيات تطوير الواجهات، أسعى دائمًا إلى تحقيق التوازن المثالي بين الجمال والأداء."
+                        </p>
+                        <a href="#" class="btn">السيرة الذاتية</a>
+                </div> 
+            </div>
+        </section>
+        <!--================ end about ===================-->
+
+        <!--================= start skills =============-->
+        <section class="skills" id="skills">
+            <div class="heading">
+                <h1>مهراتي</h1>
+                <span>مهراتي المفضلة</span>
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-content">
+                    <!-- heading-lift -->
+                    <div class="heading-lift">
+                        <h3 class="skills-title">
+                            <i class='bx bx-code-curly' ></i>مطور الواجهة الأمامية
+                        </h3>
+                    </div>
+                    
+                    <!-- skills info html -->
+                    <div class="skills-info">
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="img/html-1.svg" alt="">
+                            </div>
+                            <h3 class="skills-name">HTML</h3>
+                            <span class="skills-subtitle">متقدم</span>
+                        </div>
+                        <!-- skills info css -->
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="img/css-3.svg" alt="">
+                            </div>
+                            <h3 class="skills-name">CSS</h3>
+                            <span class="skills-subtitle">متوسط</span>
+                        </div>
+                        <!-- skills info javascript-->
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="img/logo-javascript.svg" alt="">
+                            </div>
+                            <h3 class="skills-name">js</h3>
+                            <span class="skills-subtitle">اساسيات</span>
+                        </div>
+                        
+                </div>
+
+                <div class="skills-info">
+                    <!-- skills info bootstrap-->
+                    <div class="skills-data">
+                        <div class="skills-blob">
+                            <img src="img/bootstrap-4.svg" alt="">
+                        </div>
+                        <h3 class="skills-name">bootstrap</h3>
+                        <span class="skills-subtitle">عادي</span>
+                    </div>
+                    <div class="skills-data ">
+                        <div class="skills-blob">
+                            <img src="img/git-icon.svg" alt="">
+                        </div>
+                        <h3 class="skills-name">Git</h3>
+                        <span class="skills-subtitle">متوسط</span>
+                    </div>
+                </div>
+                </div>
+
+                <div class="skills-content">
+                    <!-- heading-lift -->
+                    <div class="heading-lift">
+                        <h3 class="skills-title">
+                            <i class='bx bx-palette' ></i> مصمم الويب
+                        </h3>
+                    </div>
+                <!-- skills info adobe-xd -->
+                <div class="skills-info">
+                    <div class="skills-data">
+                        <div class="skills-blob">
+                            <img src="img/adobe-xd-1.svg" alt="">
+                        </div>
+                        <h3 class="skills-name">adobe</h3>
+                        <span class="skills-subtitle">متوسط</span>
+                    </div>
+                    <!-- skills info invision-->
+                    <div class="skills-data">
+                        <div class="skills-blob">
+                            <img src="img/invision.svg" alt="">
+                        </div>
+                        <h3 class="skills-name">invision</h3>
+                        <span class="skills-subtitle">اساسيات</span>
+                    </div>
+                    <!-- skills info canva-->
+                    <div class="skills-data">
+                        <div class="skills-blob">
+                            <img src="img/canva-1.svg" alt="">
+                        </div>
+                        <h3 class="skills-name">canva</h3>
+                        <span class="skills-subtitle">متقدم</span>
+                    </div>
+                </div>
+
+                <div class="skills-info">
+                    <div class="skills-data">
+                        <div class="skills-blob">
+                            <img src="img/adobe-photoshop-2.svg" alt="">
+                        </div>
+                        <h3 class="skills-name">photoshop</h3>
+                        <span class="skills-subtitle">متوسط</span>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-blob">
+                            <img src="img/figma-1.svg" alt="">
+                        </div>
+                        <h3 class="skills-name">figma</h3>
+                        <span class="skills-subtitle">متقدم</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!--================ end skills ===============-->
+
+        <!--================ start  services ===============-->
+        <section class="services" id="services">
+            <div class="services-heading">
+                <h1>خدماتي</h1>
+                <span>ماذا نقدم؟</span>
+            </div>
+        <div class="serices-continer">
+            <div class="continer-box">
+                <!-- box 1 -->
+                <div class="box">
+                <div class="box-icons">
+                    <a href="#"><i class='bx bx-palette' ></i> </a>
+                    <h2>01</h2>
+                </div>
+                <h2>مصمم الويب UI/UX</h2>
+                <p>نقدم تصميمات واجهات المستخدم وتجارب المستخدم الفريدة والجذابة. سنعمل معك لتحويل رؤيتك إلى تصميمات واقعية تتناسب مع احتياجات المستخدمين وتعكس هويتك التجارية بشكل رائع.</p>
+                </div>
+                <!-- box 2 -->
+                <div class="box">
+                <div class="box-icons">
+                    <a href="#"><i class='bx bx-code-alt'></i></a>
+                    <h2>02</h2>
+                </div>
+                <h2 class="box-h2">مطور الواجهة الأمامية</h2>
+                <p>نحن هنا لتحويل تصاميمك إلى واجهات ويب مذهلة ومستجيبة. باستخدام أحدث التقنيات في تطوير الواجهات الأمامية، سنجعل تجربة المستخدم سهلة ومثيرة، مع التركيز على الأداء وسرعة التحميل.</p>
+                </div>
+                <!-- box 3 -->
+                <div class="box">
+                    <div class="box-icons">
+                        <a href="#"><i class='bx bxs-buildings'></i></a>
+                        <h2>03</h2>
+                    </div>
+                    <h2>تطوير حلول مخصصة</h2>
+                    <p>نحن متخصصون في تطوير حلول مخصصة وفقًا لاحتياجاتك الفريدة. سواء كنت بحاجة إلى تطبيق ويب مخصص أو نظام إدارة محتوى يتناسب مع عملك، فإن فريقنا سيعمل معك لتحقيق رؤيتك وتقديم حلاً يفوق توقعاتك.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--================ end  services ================-->
+
+        <!-- =============== start  portfolio ===============-->
+        <section class="portfolio" id="portfolio">
+            <div class="services-heading">
+                <h1>مشاريعي</h1>
+                <span>اكتشف مجموعة مشاريعي المميزة</span>
+            </div>
+
+            <div class="portfolio-container">
+                        <!-- portfolio-box 1 -->
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="img/port-1.jpg" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h1>تطبيق موقع الويب الديناميكي</h1>
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </div>
+                        <p>تم تطوير هذا التطبيق باستخدام تقنيات حديثة لتقديم تجربة مستخدم رائعة.</p>
+                    </div>
+                </div>
+
+                <!-- portfolio-box 2 -->
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="img/port-2.jpg" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h1>تطوير تطبيق محمول</h1>
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </div>
+                        <p>تطوير تطبيق محمول يقدم حلاً مبتكرًا للاحتياجات اليومية للمستخدمين.</p>
+                    </div>
+                </div>
+
+                        <!-- portfolio-box 3 -->
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="img/port-3.jpg" alt="تصميم موقع ويب إبداعي">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h1>تصميم موقع ويب إبداعي</h1>
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </div>
+                        <p>تصميم فريد وإبداعي لموقع ويب يجمع بين الجمال وسهولة الاستخدام.</p>
+                    </div>
+                </div>
+
+                <!-- portfolio-box 4 -->
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="img/port-4.jpg" alt="تصميم شعار مبتكر">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h1>تصميم شعار مبتكر</h1>
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </div>
+                        <p>تم تصميم شعار جديد ومبتكر يعبر عن هوية العلامة التجارية بشكل فريد.</p>
+                    </div>
+                </div>
+
+                <!-- portfolio-box 5 -->
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="img/port-5.jpg" alt="تطوير تطبيق محمول">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h1>تصميم واجهة مستخدم مبتكرة</h1>
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </div>
+                        <p>تم تصميم هذه الواجهة لتوفير تجربة مستخدم مريحة وجذابة.</p>
+                    </div>
+                </div>
+
+                <!-- portfolio-box 6 -->
+                <div class="portfolio-box">
+                    <div class="portfolio-img">
+                        <img src="img/port-6.jpg" alt="تصميم موقع إلكتروني">
+                    </div>
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h1>تصميم موقع إلكتروني</h1>
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </div>
+                        <p>تصميم موقع ويب متجاوب يعكس رؤية العميل ويقدم محتوى مميز وجذاب.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================== end  portfolio ===============-->
+
+        <!-- ================== start  Reviews ================-->
+        <section class="reviews" id="Reviews">
+            <!-- heading -->
+            <div class="heading">
+                <h1>المراجعات</h1>
+                <span>اكتشف أفضل العروض<br>شكرا لي الأشخاص الأعلى تقييماً</span>
+            </div>
+            <div class="reviews-container">
+                <!-- card 1 -->
+                <div class="reviews-card">
+                    <img src="img/rev1.jpg" alt="">
+                    <h2>أحمد عبد الرحمن</h2>
+                    <div class="star">
+                        <i class='bx bxs-star-half' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                    </div>
+                    <p>خدمة رائعة ومحترفة. تمكنت من تحسين تجربة المستخدم لموقعي بشكل مذهل!</p>
+                </div>
+                <!-- card 2 -->
+                <div class="reviews-card">
+                    <img src="img/rev3.jpg" alt="">
+                    <h2>ليلى محمد</h2>
+                    <div class="star">
+                        <i class='bx bxs-star-half' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                    </div>
+                    <p>خدمة رائعة وفريق يتمتع بالاحترافية. أنا سعيدة جدًا بالنتائج!</p>
+                </div>
+                <!-- card 3 -->
+                <div class="reviews-card">
+                    <img src="img/rev2.jpg" alt="">
+                    <h2>محمد علي</h2>
+                    <div class="star">
+                        <i class='bx bxs-star-half' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                    </div>
+                    <p>خدمة ممتازة ونتائج فوق توقعاتي. لا يمكنني سوى التوصية بها للجميع!</p>
+                </div>
+            </div>
+        </section>     
+        <!--=================== end Reviews ===================-->
+        
+        <!-- ================== start  subscribe ================-->
+        <section class="subscribe">
+            <h1>اشترك لمعرفة كل جديد</h1>
+            <div class="subscribe-box">
+                <input type="email" placeholder="أدخل بريدك الإلكتروني ....">
+                <button id="subbtn"><strong>إشترك الآن!</strong></button
+            </div>
+        </section>
+        <!-- ================== end  subscribe ================-->
+        
+        <!-- ================== start  contact ================-->
+        <section class="contact" id="contact">
+            <!-- heading -->
+            <div class="heading">
+                <h1>تواصل معنا</h1>
+            </div>
+            <div class="container">
+            <div class="contact-card">
+                <div class="contact-content" data-reveal="left">
+                    <div class="card-icon">
+                        <img src="img/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+                    </div> 
+                    <h2 class="h2 section-title">إذا أعجبك ما تراه ، فلنعمل معًا.</h2> 
+                    <p class="section-text">
+                        أقدم حلولًا سريعة لجعل حياة عملائي أسهل. لديك أي أسئلة؟ تواصل معي من نموذج الاتصال وسأعاود الاتصال بك قريبًا.
+                    </p>  
+                    <div class="contint-links">
+                        <div class="conteint-box">
+                            <a href=""><i class='bx bx-map' ></i></a>
+                            <span>فلسطين, غزة</span>
+                        </div>
+                        <div class="conteint-box">
+                            <a href=""><i class='bx bxs-phone' ></i></a>
+                            <span>+970 555 5550</span>
+                        </div>
+                        <div class="conteint-box">
+                            <a href=""><i class='bx bxl-gmail'></i></a>
+                            <span>ifon@gmail.com</span>
+                        </div>
+                    </div>
+                </div>  
+                <form action="" class="contact-form" data-reveal="right">   
+                    <div class="input-wrapper">
+                        <input type="text" name="name" placeholder="الاسم *" required class="input-field">  
+                        <input type="email" name="email_address" placeholder="الاميل *" required class="input-field">
+                    </div>  
+                    <input type="text" name="email_address" placeholder="الموضوع *" required class="input-field-2">
+                    <textarea name="message" placeholder="الرسالة *" required class="input-field"></textarea>
+                    <button type="submit" class="btn btn-secondary">ارسل الرسالة</button>
+                </form>
+            </div>
+            </div>
+        </section>
+        <!-- ================== END  contact ================-->
+
+        <!-- ================== start footer================ -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="copyright">
+                    <p>© 2023 محمود الشاعر. كل الحقوق محفوظة.</p>
+                </div>
+                <!-- socail -->
+                <div class="wrapper-1">
+                        <div class="icon-1 facebook-1">
+                        <div class="tooltip-1">
+                            Facebook
+                        </div>
+                        <span><i class='bx bxl-facebook-circle'></i></span>
+                        </div>
+                        <div class="icon-1 twitter-1">
+                        <div class="tooltip-1">
+                            Twitter
+                        </div>
+                        <span><i class='bx bxl-twitter'></i></span>
+                        </div>
+                        <div class="icon-1 instagram-1">
+                        <div class="tooltip-1">
+                            Instagram
+                        </div>
+                        <span><i class='bx bxl-instagram-alt'></i></span>
+                        </div>
+                        <div class="icon-1 github-1">
+                        <div class="tooltip-1">
+                            Github
+                        </div>
+                        <span><i class='bx bxl-github'></i></span>
+                        </div>
+                        <div class="icon-1 linkedin-1">
+                        <div class="tooltip-1">
+                            linkedin
+                        </div>
+                        <span><i class='bx bxl-linkedin-square'></i></span>
+                        </div>
+                    </div>
+            </div>
+        </footer>
+        <!-- ================== end footer================ -->
+    </main>
+    <!------------------------------ end main --------------------------------------->
+
+    
+    <!--============ link script ================-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="main.js"></script>
+</body>
+</html>
