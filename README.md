@@ -22,6 +22,6 @@ git clone https://github.com/alshaercode/My_personal_Website_using_HTML_and_CSS_
 ## تصفح المشروع 
 تصفح المشروع: [رابط-المشروع](https://alshaercode.github.io/My_personal_Website_using_HTML_and_CSS_JS/)
 
-![صورة للموقع كامل](https://github.com/alshaercode/My_personal_Website_using_HTML_and_CSS_JS/assets/120109352/ff1c71ac-0049-41c2-a3df-5c013332f64a)
+![صورة للموقع كامل](https://github.com/alshaercode/My_personal_Website_using_HTML_and_CSS_JS/assets/120109352/1ad568ee-dba7-42a7-8773-0fa400680108)
 
 
